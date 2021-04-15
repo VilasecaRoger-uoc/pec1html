@@ -1,0 +1,1 @@
+document.getElementById('nomUsuari').innerHTML='Roger Vilaseca Riera';
