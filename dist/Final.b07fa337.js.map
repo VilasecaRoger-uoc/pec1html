@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["document","getElementById","innerHTML"],"mappings":";AAAAA,SAASC,eAAe,aAAaC,UAAU","file":"Final.b07fa337.js","sourceRoot":"..","sourcesContent":["document.getElementById('nomUsuari').innerHTML='Roger Vilaseca Riera';"]}
