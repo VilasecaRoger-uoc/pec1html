@@ -82,7 +82,7 @@ HOME --> index.html
   text-align: center;
   padding-top: 0vh;
   background-color: honeydew;
-  opacity: 80%;
+  opacity: 0.8;
   height: auto;
   padding-bottom: 2vh;
 }
@@ -114,7 +114,7 @@ header {
   align-items: center;
   text-align: center;
   padding-top: 0vh;
-  opacity: 80%;
+  opacity: o.8;
   height: auto;
   padding-bottom: 2vh;
   border-bottom: 3px solid;
