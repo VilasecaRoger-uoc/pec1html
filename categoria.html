@@ -13,7 +13,10 @@
 
 
     <header >  
-            <a href="/index.html"><img src="/img/logo.png" alt=""></a>
+            <a href="/index.html">
+                <img src="/img/logo1.svg" alt="" style="width: 25vw;">
+                <p><strong>Menjars del Bages</strong></p>
+            </a>
              <nav>
                  <ul>
                      <li><a href="categoria.html">Categoria</a><span>&nbsp;&nbsp;</span></li>
@@ -22,7 +25,6 @@
                      
                  </ul>
              </nav>
-               
     </header>
     <main>
         <div class="container">
@@ -30,32 +32,56 @@
                 <h1 class="textCenter">Els plats típics del Bages</h1>
                 <ul class="plats gridContainer">
                     <li>
-                        <img src="/img/categoria_amanida.jpg" alt="" class="imgFluid">
+                        <picture>
+                            <source media="(max-width: 1199px)" srcset="/img/categoria_amanida_800.jpg">
+                            <source media="(min-width: 1200px)" srcset="/img/categoria_amanida_480.jpg">
+                            <img src="/img/categoria_amanida_480.jpg" alt="Foto Panallets" class="imgFluid">
+                        </picture>
                         <p class="h1">Amanida Poti-Poti</p>
                         <a href="detall3.html" title="Informaciò detallada de la Amanida Poti-Poti">Informaciò detallada... +</a>
                     </li> 
                     <li>
-                        <img src="/img/categoria_paella.jpg" alt="" class="imgFluid">
+                        <picture>
+                            <source media="(max-width: 1199px)" srcset="/img/categoria_paella_800.jpg">
+                            <source media="(min-width: 1200px)" srcset="/img/categoria_paella_480.jpg">
+                            <img src="/img/categoria_paella_480.jpg" alt="Foto Panallets" class="imgFluid">
+                        </picture>
                         <p class="h1">La paella de Sant Fruitòs de Bages</p>
                         <a href="detall.html" title="Informaciò detallada de la paella de Sant Fruitòs de Bages">Informaciò detallada... +</a>
                     </li>                 
                     <li>
-                        <img src="/img/categoria_panellets.jpg" alt="" class="imgFluid">
+                        <picture>
+                            <source media="(max-width: 1199px)" srcset="/img/categoria_panellets_800.jpg">
+                            <source media="(min-width: 1200px)" srcset="/img/categoria_panellets_480.jpg">
+                            <img src="/img/categoria_panellets_480.jpg" alt="Foto Panallets" class="imgFluid">
+                        </picture>
                         <p class="h1">Panellets</p>
                         <a href="detall2.html" title="Informaciò detallada dels panellets">Informaciò detallada... +</a>
                     </li>
                     <li>
-                        <img src="/img/categoria_bacallaManresana.jpg" alt="" class="imgFluid">
+                        <picture>
+                            <source media="(max-width: 1199px)" srcset="/img/categoria_bacallaManresana_800.jpg">
+                            <source media="(min-width: 1200px)" srcset="/img/categoria_bacallaManresana_480.jpg">
+                            <img src="/img/categoria_bacallaManresana_480.jpg" alt="Foto Panallets" class="imgFluid">
+                        </picture>
                         <p class="h1">Bacallà a la Manresana</p>
                         <a href="detall.html" title="Informaciò detallada del Bacallà a la Manresana">Informaciò detallada... +</a>
                     </li>
                     <li>
-                        <img src="/img/categoria_embotits.jpg" alt="" class="imgFluid">
+                        <picture>
+                            <source media="(max-width: 1199px)" srcset="/img/categoria_embotits_800.jpg">
+                            <source media="(min-width: 1200px)" srcset="/img/categoria_embotits_480.jpg">
+                            <img src="/img/categoria_embotits_480.jpg" alt="Foto Panallets" class="imgFluid">
+                        </picture>
                         <p class="h1">Embotits Artesanals</p>
                         <a href="detall2.html" title="Informaciò detallada d'Embotits Artesanals">Informaciò detallada... +</a>
                     </li>
                     <li>
-                        <img src="/img/mato.jpg" alt="" class="imgFluid">
+                        <picture>
+                            <source media="(max-width: 1199px)" srcset="/img/mato_800.jpg">
+                            <source media="(min-width: 1200px)" srcset="/img/mato_480.jpg">
+                            <img src="/img/mato_480.jpg" alt="Foto Panallets" class="imgFluid">
+                        </picture>
                         <p class="h1">Mató de Montserrat</p>
                         <a href="detall3.html" title="Informaciò detallada del Mató de Montserrat">Informaciò detallada... +</a>
                     </li>
@@ -69,8 +95,11 @@
 
     <footer>     
         <p>Treball realitzat per <span id="nomUsuari">Nom Usuari</span> </p>
-        <p><a href="index.html">Menjars del Bages</a></p>
-        <p>mail: rvilasecar@uoc.com</p> 
+       <p><a href="categoria.html">Categoria</a></p>
+       <p><a href="presentacio.html">Presentaciò</a></p>
+       <p><a href="enllacos.html">Enllaços</a></p>
+       <p>mail: rvilasecar@uoc.com</p> 
+       <a href="/index.html"><img src="/img/logo1.svg" alt="" style="width: 15vw;"></a>
     </footer>
     <script src="index.js"></script>    
 </body>
